@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6195483260709705784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4653422523909367654}
+  - component: {fileID: 733833067481932207}
+  m_Layer: 0
+  m_Name: Hard Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4653422523909367654
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6195483260709705784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &733833067481932207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6195483260709705784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c93c6c3d5b3746c4396f83e6fc8257a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _eRocketPrefab: {fileID: 6189353026449306544, guid: 4b4e6b23be3f64e45a3a2fc3f486b995,
+    type: 3}
+  _orcPrefab: {fileID: 3596756597308161827, guid: 12f7bfd086025c9418ce6e8cc3272d9b,
+    type: 3}
+  _laserPrefab: {fileID: 5084598164510676743, guid: 13e831c95f4bce042ab91322a4e413fc,
+    type: 3}
+  _timeBomb: {fileID: 5691099205512717732, guid: 1b7ed5698e03d694dbb25e984a726c36,
+    type: 3}
